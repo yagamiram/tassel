@@ -1,26 +1,31 @@
 import React from 'react';
 import logo from './logo.svg';
+import bulb from './assets/icon.png'
+import sandwich from './assets/sandwich.png'
 import './App.css';
-
+import UserInput from './userInput';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header className="App bg-light-blue flex-ns sandwich-color">
+        <div className="mw3"> 
+          <img src={bulb} className="App-logo" alt="logo" />
+        </div>
+        <div className="pa3 center white fw9 f3 lh-title"> Tassel Loans </div>
+        <div className="mw3"> <img src={sandwich} alt="logo" /> </div>
       </header>
+      <div className="header-bg-color fw9 tc pa4">
+        Going abroad to study ?
+      </div>
+      <p className="tc">
+        Compare all your foreign education loans right here!
+        Personalize your options to find the best loan for your needs.
+      </p>
+      <div className="tc pa2">
+        Personalize your options
+      </div> 
+      <UserInput />
     </div>
   );
 }
-
 export default App;
