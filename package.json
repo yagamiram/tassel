@@ -12,7 +12,7 @@
     "react-dropdown": "^1.6.4",
     "react-http-request": "^2.0.0",
     "react-request": "^3.1.2",
-    "react-scripts": "3.3.0",
+    "react-scripts": "5.0.1",
     "request-promise": "^4.2.5",
     "tachyons": "^4.11.1"
   },
